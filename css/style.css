@@ -1,0 +1,261 @@
+body {
+  font-family: "TTLakes";
+  background-color: #F8F8F8;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  margin-left: 0px;
+  height: 88px;
+  width: 100%;
+  margin-right: 0px;
+}
+
+.header {
+  background-color: #fff;
+  align-items: center;
+}
+
+.header__wrapper {
+  display: flex;
+}
+  .header__icon {
+    margin-bottom: 23px;
+    margin-top: 24px;
+    margin-left: 0;
+  }
+
+.header__link {
+  color: #1B1C21;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.header__line {
+  margin-bottom: 27px;
+  margin-top: 28px;
+  margin-left: 10px;
+  align-self: center;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+}
+.main{
+  align-items: center;
+}
+.nav-scroller {
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+.nav-scroller__items {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  white-space: nowrap;
+  justify-content: space-between;
+  background-color: #F8F8F8;
+  padding-left: 24px;
+}
+
+.nav-scroller__item {
+  font-weight: 400;
+  color: #424242;
+  display: flex;
+  padding: 0.5rem 1.25rem;
+  text-decoration: none;
+
+}
+
+.nav-scroller__item {
+  border: 1px solid transparent;
+}
+
+.nav-scroller__item:hover {
+  border: 1px solid aquamarine;
+  border-radius: 5%;
+  background-color: #fff;
+  transition-duration: 0.5s;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 24px;
+  align-self: center;
+  padding-left: 24px;
+}
+.desctop{
+  display: none;
+}
+
+.text__information {
+  padding-left: 24px;
+  font-weight: 400;
+  font-size: 14px;
+
+}
+
+.title__wrapper {
+  display: flex;
+}
+
+.main__img--cps {
+  display: flex;
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: 25px;
+}
+.main__img--line{
+  display: flex;
+  width: 4px;
+  height: 40px;
+  margin-top: 20px;
+}
+.button {
+  display: flex;
+  padding-left: 25px;
+}
+
+.button__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main__wrapper {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  
+}
+.text__information{
+  max-width: 490px;
+margin-top: 32px;
+width: auto;
+height: auto;
+}
+
+@media (min-width: 320px) and (max-width:767px)  {
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+.header__line--1{
+  display: none;
+}
+.header__line--2{
+  display: flex;
+  width: 2px;
+  height: 32px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+  .main__wrapper {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+
+  .header__logo {
+    margin-top: 12px;
+    vertical-align: middle;
+    margin-left: 20px;
+    position: relative;
+  }
+  .header__mobile{
+    display: flex;
+  }
+.header__icon{
+  margin-left: 20px;
+}
+  .icon__text {
+    margin-right: 5px;
+    margin-left: 24px;
+    display: none;
+  }
+
+  .header__wrapper{
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width:1120px) {
+  .header__mobile{
+    display: none;
+  }
+  .header__line--2{
+    display: none;
+  }
+  .header__line--1{
+    display: flex;
+    width: 2px;
+    height: 32px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  .header__line--3{
+    display: flex;
+    width: 2px;
+    height: 32px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  .header__icon {
+    display: flex;
+    margin-bottom: 23px;
+    margin-top: 24px;
+    margin-left: 24px;
+  }
+
+  .header__logo {
+    margin-top: 12px;
+    vertical-align: middle;
+    margin-left: 20px;
+  }
+  .header__wrapper {
+    margin-left: auto;
+  }
+  .text__information{
+    margin-right: 48px;
+    max-width: 312px;
+  }
+
+}
+@media  (min-width:1120px){
+  .header {
+    display: none;
+  }
+  .desctop{
+    display: flex;
+    margin-left: auto;
+    margin-top: 42px;
+    margin-right: 32px;
+    
+  }
+  .icon__text{
+    display: flex;
+    color: #1B1C21;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-right: 5px;
+    margin-left: 24px;
+  }
+  .main__img--cps{
+    width: 531px;
+    height: 307px;
+    margin-left: auto;
+  }
+
+}
