@@ -115,7 +115,12 @@ a {
   max-height: 100%;
   object-fit: contain;
   margin-top: 25px;
+  width: 531px;
+  height: 307px;
+  margin-left: auto;
+  margin-right: 28px;
 }
+
 .main__img--line{
   display: flex;
   width: 4px;
@@ -252,10 +257,6 @@ height: auto;
     margin-right: 5px;
     margin-left: 24px;
   }
-  .main__img--cps{
-    width: 531px;
-    height: 307px;
-    margin-left: auto;
-  }
+  
 
 }
