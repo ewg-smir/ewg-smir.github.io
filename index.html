@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
   <title>«Верстка блока. Построение сеток + БЭМ именование»</title>
 </head>
 
@@ -13,39 +14,31 @@
   <header class="header">
     <div class="container">
 
-      <!-- <div class="container"> -->
-      <!-- <div class="header__wrapper1"> -->
       <div class="header__icon">
         <img src="/img/header/header__menu.svg" alt="menu">
-      </div>
-      <div class="header__line--1">
-        <img src="/img/header/palka.svg" alt="menu">
       </div>
       <div class="header__logo">
         <div class="header__logo-img">
           <img src="/img/header/header__logo.svg" alt="">
         </div>
       </div>
-      <div class="header__line--2">
-        <img src="/img/header/palka.svg" alt="menu">
-      </div>
       <div class="header__mobile">
-      <div class="header__icon">
-        <a class="header__link" href="#">
-          <div class="icon__item">
-            <img src="/img/header/header__repair.svg" alt="">
-          </div>
-        </a>
+        <div class="header__icon">
+          <a class="header__link" href="#">
+            <div class="icon__item">
+              <img src="/img/header/header__repair.svg" alt="">
+            </div>
+          </a>
+        </div>
+        <div class="header__icon">
+          <a class="header__link" href="#">
+            <div class="icon__item">
+              <img class="cps" src="/img/header/header__checkstatus.svg" alt="">
+            </div>
+          </a>
+        </div>
       </div>
-      <div class="header__icon">
-        <a class="header__link" href="#">
-          <div class="icon__item">
-            <img src="/img/header/header__checkstatus.svg" alt="">
-          </div>
-        </a>
-      </div>
-    </div>
-      <!-- </div> -->
+      
       <div class="header__wrapper">
 
         <div class="header__icon">
@@ -56,9 +49,6 @@
         </div>
         <div class="header__icon">
           <img src="/img/header/header__profile.svg" alt="">
-        </div>
-        <div class="header__line--3">
-          <img src="/img/header/palka.svg" alt="">
         </div>
         <div class="header__icon">
           <a class="header__link" href="#">
@@ -115,7 +105,6 @@
           <a class="nav-scroller__item" href="#">Специальные цены</a>
         </nav>
       </div>
-      </div>
 
 
       <div class="main__wrapper">
@@ -124,10 +113,10 @@
             <div class="text__information">
               <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
                 отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-
-              <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое
+                <br>
+              <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span>, что подтверждает большое
                 количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
-                очередь,советуют нас родным и близким.</p>
+                очередь,советуют нас родным и близким.</span></p>
             </div>
           </div>
           <div class="button">
@@ -146,7 +135,6 @@
     </article>
 
   </main>
-  </div>
 
 </body>
 
